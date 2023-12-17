@@ -52,3 +52,10 @@ Hello World... from thread = 6
 Hello World... from thread = 9
 Hello World... from thread = 5
 ```
+
+Note:
+For compilers to find libomp you may need to set:
+```commandline=bash
+export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
+```
